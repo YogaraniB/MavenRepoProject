@@ -17,7 +17,7 @@ public class MavenDemoController {
 	{
 		System.out.println("I am in home");
 		return "hello";
-		
+		        
 	}
 	
 }
