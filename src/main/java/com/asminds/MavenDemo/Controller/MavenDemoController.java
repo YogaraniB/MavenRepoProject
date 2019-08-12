@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MavenDemoController {
 	@RequestMapping("/") 
-	public String index()
+	public String index()    
 	{
 		System.out.println("I am in home");
 		return "index";
